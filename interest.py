@@ -1,7 +1,7 @@
 import sys
 
 if len(sys.argv) != 4:
-    print("Usage: python labp5.py <principal> <rate> <time>")
+    print("Usage: python interest.py <principal> <rate> <time>")
     sys.exit(1)
 
 P = float(sys.argv[1])
